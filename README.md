@@ -40,7 +40,7 @@ The Atlas Network is a dual-structured ecosystem designed for modern thinkers, d
 ## 🔗 Quick Links
   - [Atlas Debate Discord:](https://discord.gg/Xb6VnAbd4w)
   - [Atlas Lounge Discord:](https://discord.com/invite/atlslounge)
-  - [Reddit Community r/AtlasLounge:](r/AtlasLounge) (Shared hub for both servers)
+  - [Reddit Community r/AtlasLounge:](https://reddit.com/r/AtlasLounge) (Shared hub for both servers)
 
 ## 📜 ATLAS SERVER RULES
 
