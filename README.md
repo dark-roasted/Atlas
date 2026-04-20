@@ -1,107 +1,40 @@
-# ATLAS — Structured Discourse
+# ATLAS NETWORK
 
-<p align="center">
-  <img src="Assets/Server/ServerIcon.png" width="160" alt="ATLAS Server Icon" />
-</p>
+Welcome to the official repository and documentation for the **Atlas Network**, comprising two distinct but interconnected communities: **Atlas Lounge** and **Atlas**.
 
-<p align="center">
-  <strong>Think. Discourse.</strong><br/>
-  Structured conversation without chaos.
-</p>
+## 🌐 Overview & Philosophy
 
----
+The Atlas Network is divided into two core pillars, catering to different intellectual and social needs:
 
-## Overview
+### 1. Atlas Lounge
+* **Vibe:** Public, chill, and relaxed. 
+* **Focus:** Tech, anime, gaming, "makara kikiri" (casual chatting), and general community bonding.
+* **Rules:** Clean community. No NSFW. 18+ is preferred but not strictly mandatory.
+* **Aesthetic:** Digital prestige, neon-cyber, glassmorphism.
 
-**ATLAS** is a structured Discord community built around disciplined discussion.
-
-It is **not** a religion-only server.  
-Debate is central — but topics vary:
-
-- Philosophy  
-- Ethics (religious & philosophical)  
-- Theology  
-- Gaming  
-- Anime  
-- Books  
-- Culture  
-- Open discourse  
-
-The environment is chill, but the standards are strict.
+### 2. ATLAS (The Structured Debate Server)
+* **Vibe:** Serious, highly disciplined, and structured.
+* **Languages:** Bilingual (Arabic & English).
+* **Focus:** Philosophy, Ethics (religious & philosophical), Theology, Culture, Books, Gaming, and Anime.
+* **Note:** It is *not* a religion-only server, but religion and philosophy are deeply discussed rationally. 
 
 ---
 
-## ___Core Principles___
-
-### **Respect is Fundamental**
-Critique ideas — not people.  
-No insults. No hate. No personal attacks.
-
-### **Freedom of Expression ≠ Abuse**
-Rational discussion is welcome.  
-Provocation, hostility, or incitement is not.
-
-### **Structured Moderation**
-Clear penalty system.  
-Decisions are enforced.  
-Severe violations = immediate permanent ban.
-
----
-
-## 🌐 Links
-
-### **Website**
-https://lilzeng1.github.io/Atlas/
-
-### **Discord Server**
-https://discord.gg/VsHgBpQGT8
-
-### **Instagram**
-https://instagram.com/lilzeng1  
-@lilzeng1
-
----
-
-## 🛠 Tech Stack
-
-- **Frontend:** HTML, TailwindCSS, Custom CSS  
-- **Backend:** Node.js, Express  
-- **Database:** MongoDB (Mongoose)  
-- **Auth:** Discord OAuth2  
-- **Deployment:** GitHub Pages + Node backend  
-
----
-
-## 📁 Project Structure
-
+## 📂 Project Structure
 ```
-/Assets
-  /Server
-    ServerIcon.png
-
-/Styles
-  Home.css
-
-/Scripts
-  Home.js
-
-index.html
-index.js
+📦 Atlas-Website
+ ┣ 📂 Assets
+ ┃ ┣ 📜 AtlasLoungeLogo.png  # High-res static logo for the Lounge
+ ┃ ┗ 📜 AtlasLogo.gif        # Animated GIF logo for the debate server
+ ┣ 📂 Style
+ ┃ ┗ 📜 Home.css             # Custom scrollbars, glassmorphism, and animations
+ ┣ 📂 Scripts
+ ┃ ┗ 📜 Main.js              # GSAP ScrollTrigger animations & Navbar logic
+ ┣ 📜 index.html             # Main entry point (Tailwind + HTML5)
+ ┗ 📜 README.md              # Documentation and Server Rules
 ```
 
----
-
-## ___Mission Statement___
-
-> A platform where ideas compete —  
-> without people being attacked.
-
-Clean interface.  
-Clear rules.  
-Direct enforcement.  
-
-No noise. Only discourse.
-
----
-
-© 2026 ATLAS — All Rights Reserved
+## 🔗 Official Links
+  - Discord Community: (Atlas) [https://discord.gg/Xb6VnAbd4w]
+  - Discord Community (Atlas Lounge) [https://discord.gg/atlslounge]
+  - Reddit Subreddit: []r/AtlasLounge (Shared hub for both communities)
