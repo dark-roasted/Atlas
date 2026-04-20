@@ -2,10 +2,10 @@ document.addEventListener('DOMContentLoaded', () => {
     gsap.registerPlugin(ScrollTrigger);
 
     // --- Hero Intro ---
-    const tl = gsap.timeline({ defaults: { ease: "expo.out", duration: 1.5 }});
+    const tl = gsap.timeline({ defaults: { ease: "expo.out", duration: 1.5 } });
     tl.to(".hero-title", { opacity: 1, y: 0, delay: 0.3 })
-      .to(".hero-desc", { opacity: 1, y: 0 }, "-=1.2")
-      .to(".hero-btns", { opacity: 1, y: 0 }, "-=1.1");
+        .to(".hero-desc", { opacity: 1, y: 0 }, "-=1.2")
+        .to(".hero-btns", { opacity: 1, y: 0 }, "-=1.1");
 
     // --- Navbar Logic ---
     window.addEventListener('scroll', () => {
@@ -30,7 +30,6 @@ document.addEventListener('DOMContentLoaded', () => {
         sidebar.classList.toggle('active', state);
         document.body.style.overflow = state ? 'hidden' : '';
     };
-
     openBtn.onclick = () => toggle(true);
     closeBtn.onclick = () => toggle(false);
     overlay.onclick = () => toggle(false);
