@@ -1,40 +1,37 @@
-# ATLAS NETWORK
+# ATLAS NETWORK | OFFICIAL DOCUMENTATION
 
-Welcome to the official repository and documentation for the **Atlas Network**, comprising two distinct but interconnected communities: **Atlas Lounge** and **Atlas**.
+This repository contains the official website source code and community documentation for the **Atlas Network**, which includes two primary pillars: **Atlas Lounge** and **Atlas**.
+
+---
 
 ## 🌐 Overview & Philosophy
 
-The Atlas Network is divided into two core pillars, catering to different intellectual and social needs:
+The Atlas Network is a dual-structured ecosystem designed for modern thinkers, developers, and debaters.
 
 ### 1. Atlas Lounge
-* **Vibe:** Public, chill, and relaxed. 
-* **Focus:** Tech, anime, gaming, "makara kikiri" (casual chatting), and general community bonding.
-* **Rules:** Clean community. No NSFW. 18+ is preferred but not strictly mandatory.
-* **Aesthetic:** Digital prestige, neon-cyber, glassmorphism.
+* **Focus:** Tech, Anime, Gaming, Linux ricing, and casual social interaction.
+* **Atmosphere:** Chill, design-focused, and respectful.
+* **Audience:** Developers, designers, and strategic thinkers.
+* **Discord:** [discord.gg/atlslounge](https://discord.gg/atlslounge)
 
-### 2. ATLAS (The Structured Debate Server)
-* **Vibe:** Serious, highly disciplined, and structured.
+### 2. ATLAS (The Debate Server)
+* **Focus:** Philosophy, Ethics, Theology, Religion, Culture, and Intellectual growth.
 * **Languages:** Bilingual (Arabic & English).
-* **Focus:** Philosophy, Ethics (religious & philosophical), Theology, Culture, Books, Gaming, and Anime.
-* **Note:** It is *not* a religion-only server, but religion and philosophy are deeply discussed rationally. 
+* **Atmosphere:** Disciplined, rational, structured, and serious.
+* **Discord:** [discord.gg/Xb6VnAbd4w](https://discord.gg/Xb6VnAbd4w)
 
 ---
 
 ## 📂 Project Structure
-```
+
+```text
 📦 Atlas-Website
  ┣ 📂 Assets
- ┃ ┣ 📜 AtlasLoungeLogo.png  # High-res static logo for the Lounge
- ┃ ┗ 📜 AtlasLogo.gif        # Animated GIF logo for the debate server
+ ┃ ┣ 📜 AtlasLoungeLogo.png  # Lounge static logo
+ ┃ ┗ 📜 AtlasLogo.gif        # Atlas animated logo (GIF)
  ┣ 📂 Style
- ┃ ┗ 📜 Home.css             # Custom scrollbars, glassmorphism, and animations
+ ┃ ┗ 📜 Home.css             # Custom scrollbars & Glassmorphism
  ┣ 📂 Scripts
- ┃ ┗ 📜 Main.js              # GSAP ScrollTrigger animations & Navbar logic
- ┣ 📜 index.html             # Main entry point (Tailwind + HTML5)
- ┗ 📜 README.md              # Documentation and Server Rules
-```
-
-## 🔗 Official Links
-  - Discord Community: (Atlas) [https://discord.gg/Xb6VnAbd4w]
-  - Discord Community (Atlas Lounge) [https://discord.gg/atlslounge]
-  - Reddit Subreddit: []r/AtlasLounge (Shared hub for both communities)
+ ┃ ┗ 📜 Main.js              # GSAP & ScrollTrigger animations
+ ┣ 📜 index.html             # Main entry point
+ ┗ 📜 README.md              # Documentation (This file)
